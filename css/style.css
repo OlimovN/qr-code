@@ -1,0 +1,79 @@
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2");
+}
+
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #ffffff;
+  box-shadow: 0px 25px 25px 0px #0000000c;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  margin-top: 160px;
+}
+
+.main__oval {
+  display: flex;
+  justify-content: center;
+  width: 288px;
+  height: 288px;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  background-color: blue;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.main__oval-img {
+  color: #ffffff;
+  margin-top: 64px;
+}
+
+.main__text {
+  width: 288px;
+  height: 129px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main__text-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+}
+
+.main__text-description {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.19px;
+  text-align: center;
+  color: #7d889e;
+  width: 256px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
